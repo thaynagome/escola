@@ -27,18 +27,24 @@ main{
     background-color: #fff;
     width: 1210px;
     margin: 0 auto;
-    height: 50px;
-    border-bottom: 3px solid #efefef;
     text-align: center;
+    padding: 8px;
 }
 
 .menu-urls {
+    height: 60px;
     border-bottom: 3px solid #efefef;
 }
 
 .menu ul li{
     display: inline-block; /* Exibe em linha */
     color: #8b8b8b;
+    height: 37px;
+    margin-left: 60px; /* distancia entre palavras */
+}
+
+.menu ul li:hover{
+    border-bottom:3px solid red;
 }
 
 .menu ul li a {
@@ -46,7 +52,11 @@ main{
     text-decoration: none; /* remove o sublinhado */
     font-size: 18px; /* tamanho fonte */
     text-transform: uppercase; /* letras maiuscular */
-    margin-left: 40px; /* distancia entre palavras */
+
+}
+
+.menu ul li a:hover{
+    color: red;
 }
 
 .menu {
