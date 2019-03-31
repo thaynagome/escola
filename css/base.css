@@ -1,0 +1,10 @@
+.logo{
+    background-color:#000;
+    align-items: center;
+}
+
+main{
+    width: 1180px;
+    position: relative;
+    margin: 0 auto;
+}
