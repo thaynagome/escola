@@ -310,8 +310,8 @@ h2, h5 {
    }
 
    .info-curso {
-       width: 500px;
-       height: 500px;
+       width: 280px;
+       height: 280px;
        float: right;
        text-align: center;
        background-color: #4b4a4a;
@@ -323,5 +323,20 @@ h2, h5 {
    .hr{ /* linha na div */
     border-color:#aaa;
     box-sizing:border-box;
-    width:100%;  
+    width:20%;  
+    float: right;
+  }
+
+  .info-curso h1 {
+      padding: 18px;
+  }
+
+  .info-curso {
+    padding: 10px;
+}
+
+  .test {
+      height: 100%;
+      width: 100%;
+
   }
