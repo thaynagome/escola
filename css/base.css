@@ -156,3 +156,53 @@ li.slick-active button{
 .bloco-texto {
     margin-top: 2em;
 }
+
+.form{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: 'arial';
+}
+
+.placeholder{
+    font-family: 'arial';
+    color: #8b8b8b;
+}
+
+.textarea{
+    width: 50%;
+    height: 150px;
+    padding: 12px 0px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+}
+
+.submit{
+    background-color: #018a96;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: left;
+}
+
+body.fn_flc{
+    text-align: center;   
+}
+
+.inicio{
+    color: white;
+    background-color: #018a96;
+    font-size: 20px;
+}
+
+h2, h5 {
+    margin-left: 20px;
+}
