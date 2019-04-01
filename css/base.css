@@ -206,3 +206,25 @@ body.fn_flc{
 h2, h5 {
     margin-left: 20px;
 }
+
+.informa p {
+    font-size: 15px;
+    color: #868686;
+}
+
+.informa h1 {
+    font-size: 30px;
+    color: #818181;
+}
+
+.col-4 {
+    width: 33.3%;
+    float: left;
+    position: relative;
+    margin-top: 4em;
+}
+
+.col-4 img {
+    width: 150px;
+    height: 150px;
+}
