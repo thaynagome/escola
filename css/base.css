@@ -39,12 +39,12 @@ main{
 .menu ul li{
     display: inline-block; /* Exibe em linha */
     color: #8b8b8b;
-    height: 37px;
+    height: 35px; /* altura do sublinhado */
     margin-left: 60px; /* distancia entre palavras */
 }
 
 .menu ul li:hover{
-    border-bottom:3px solid red;
+    border-bottom:5px solid #018a96;
 }
 
 .menu ul li a {
@@ -56,7 +56,7 @@ main{
 }
 
 .menu ul li a:hover{
-    color: red;
+    color: #018a96;
 }
 
 .menu {
@@ -69,4 +69,65 @@ main{
     float: left;
     position: relative;
     background-color: #fff;
+}
+
+button.slick-prev { /* seta de antes */
+    font-size: 0px;
+    border: none;
+    width: 25px;
+    height: 51px;
+    z-index: 4;
+    background-color: transparent;
+    position: absolute;
+    background-image: url("../img/ant.png");
+    top: 35%;
+    left: 2%;
+}
+
+button.slick-next { /* seta de depois */
+    font-size: 0px;
+    border: none;
+    width: 25px;
+    height: 51px;
+    z-index: 4;
+    background-color: transparent;
+    position: absolute;
+    background-image: url("../img/dep.png");
+    top: 35%;
+    right:2%;
+}
+
+.slick-list{
+    width: 100%!important;
+}
+
+.slick-initialized{ /* tira a rolagem horizontal */
+    overflow: hidden;
+}
+
+.slick-dots li button{ /*estiliza o botão para mudar slide */
+    font-size: 0px;
+    border: 2px solid #fff;
+    width: 15px;
+    height: 15px;
+    background: transparent;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.slick-dots{
+    margin:0 auto;
+    width: 50%;
+    position: absolute;
+    left: 47%;
+    top: 500px;
+}
+
+li.slick-active button{
+    background-color: #018a96;
+}
+
+.slick-dots li{ /* alinha os botões */
+    padding-left: 10px;
+    display: inline-block;
 }
