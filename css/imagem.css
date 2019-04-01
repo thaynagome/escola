@@ -1,0 +1,21 @@
+
+div.container {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+  }
+  
+  div.container:hover {
+    border: 1px solid #777;
+  }
+  
+  div.container img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
