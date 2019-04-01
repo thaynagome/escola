@@ -320,4 +320,8 @@ h2, h5 {
        border-radius: 20px; /* arredondar borda */
    }
 
-   
+   .hr{ /* linha na div */
+    border-color:#aaa;
+    box-sizing:border-box;
+    width:100%;  
+  }
