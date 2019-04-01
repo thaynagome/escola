@@ -268,8 +268,8 @@ h2, h5 {
     height: 200px;
     float: left;
     margin-right: 10px;
-    padding: 30px;
-
+    padding-left: 30px;
+    padding: 42px;
    }
    
    /* Child Text Container */
@@ -296,7 +296,7 @@ h2, h5 {
     width: 150px;
     padding: 8px 15px;
     visibility: visible;
-    opacity: 0.7; 
+    opacity: 5.7; 
    }
 
    .taman {
