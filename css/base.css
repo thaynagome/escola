@@ -2,7 +2,7 @@ body{
     width: 100%;
     height: 100%;
     margin: 0 auto;
-    background-color: #000;
+    background-color: #FFF;
 }
 
 .menu-principal{
@@ -11,7 +11,7 @@ body{
     height: 105px;
 }
 
-main{
+main, .content {
     margin: 0 auto;
     width: 1210px;
     position: relative;
@@ -130,4 +130,18 @@ li.slick-active button{
 .slick-dots li{ /* alinha os botões */
     padding-left: 10px;
     display: inline-block;
+}
+
+.texto-destaque{
+    text-align: center;
+}
+
+.texto-destaque h1{
+    font-size: 30px;
+    color: #818181;
+}
+
+.texto-destaque p {
+    font-size: 15px;
+    color: #868686;
 }
