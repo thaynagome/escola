@@ -9,7 +9,7 @@ body{
 
 .menu-principal{
     width: 100%;
-    background-color:#018a96;
+    background-color:#000;
     height: 105px;
 }
 
@@ -307,6 +307,17 @@ h2, h5 {
    .medida img {
        width: 100%;
        height: 500px;
+   }
+
+   .info-curso {
+       width: 500px;
+       height: 500px;
+       float: right;
+       text-align: center;
+       background-color: #4b4a4a;
+       background-position: center;
+       color: #fff;
+       border-radius: 20px; /* arredondar borda */
    }
 
    
