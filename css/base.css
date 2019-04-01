@@ -310,33 +310,35 @@ h2, h5 {
    }
 
    .info-curso {
-       width: 280px;
-       height: 280px;
-       float: right;
-       text-align: center;
-       background-color: #4b4a4a;
-       background-position: center;
-       color: #fff;
-       border-radius: 20px; /* arredondar borda */
-   }
-
-   .hr{ /* linha na div */
-    border-color:#aaa;
-    box-sizing:border-box;
-    width:20%;  
+    width: 280px;
+    height: 280px;
     float: right;
-  }
-
-  .info-curso h1 {
-      padding: 18px;
-  }
-
-  .info-curso {
-    padding: 10px;
+    text-align: center;
+    background-color: #4b4a4a;
+    background-position: center;
+    color: #fff;
+    border-radius: 20px; /* arredondar borda */
 }
 
-  .test {
-      height: 100%;
-      width: 100%;
+.hr{ /* linha na div */
+ border-color:#aaa;
+ box-sizing:border-box;
+ width:20%;  
+ float: right;
+}
 
-  }
+.info-curso h1 {
+   padding: 18px;
+}
+
+.info-curso {
+ padding: 10px;
+}
+
+.horas {
+   height: 40%;
+   width: 40%;
+   float: right;
+   padding-right: 30px;
+   padding-top: 90px;
+}
