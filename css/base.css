@@ -39,12 +39,12 @@ main{
 .menu ul li{
     display: inline-block; /* Exibe em linha */
     color: #8b8b8b;
-    height: 37px;
+    height: 35px; /* altura do sublinhado */
     margin-left: 60px; /* distancia entre palavras */
 }
 
 .menu ul li:hover{
-    border-bottom:3px solid red;
+    border-bottom:5px solid #018a96;
 }
 
 .menu ul li a {
@@ -56,7 +56,7 @@ main{
 }
 
 .menu ul li a:hover{
-    color: red;
+    color: #018a96;
 }
 
 .menu {
